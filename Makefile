@@ -33,4 +33,4 @@ black_check:
 	$(PYTHON) -m black . --check
 
 start:
-	$(PYTHON) -m jupyter notebook
+	$(PYTHON_ENV) && jupyter notebook

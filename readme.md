@@ -1,12 +1,18 @@
 # aptible geodata
 
+## Installation
+
 May need the following:
 
 ```shell
 brew install gdal
+brew install libspatialite
+brew install spatialindex
 ```
 
-To start;
+## Starting the notebook
+
+To start:
 
 ```shell
 make install
