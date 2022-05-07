@@ -5,8 +5,10 @@
 May need the following:
 
 ```shell
+brew install mactex
 brew install gdal
 brew install libspatialite
+brew install pandoc
 brew install spatialindex
 ```
 

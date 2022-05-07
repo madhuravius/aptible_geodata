@@ -34,3 +34,6 @@ black_check:
 
 start:
 	$(PYTHON_ENV) && jupyter notebook
+
+export:
+	$(PYTHON_ENV) && jupyter nbconvert --to webpdf --allow-chromium-download notebooks/1-base-centroid.ipynb
